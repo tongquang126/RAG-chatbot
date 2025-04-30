@@ -5,7 +5,6 @@ __pycache__/
 data/faiss_index/
 .gradio/
 .vscode/
-Pipfile.lock
 *.log
 *.tmp
 # Secrets
