@@ -4,12 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-gradio = "*"
-langchain = "*"
 python-dotenv = "*"
 huggingface_hub = "*"
 sentence-transformers = "*"
 faiss-cpu = "*"  # Use faiss-gpu if you have GPU support
+langchain-community = "*"
+langchain = "*"
+gradio = "*"
 
 [dev-packages]
 
