@@ -5,6 +5,7 @@ Purpose:
     allowing users to input questions and receive answers
     using the FAISS index and GPT-3.5.
 """
+
 import gradio as gr
 from retriever import load_vector_store, retrieve_documents
 from generator import generate_answer
