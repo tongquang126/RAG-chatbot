@@ -1,0 +1,24 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+data/faiss_index/
+.gradio/
+.vscode/
+Pipfile.lock
+*.log
+*.tmp
+# Secrets
+.env
+.gradio/
+
+# FAISS index
+data/faiss_index/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints (optional)
+.ipynb_checkpoints/
