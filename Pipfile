@@ -12,6 +12,7 @@ gradio = "*"
 sentence-transformers = "*"
 faiss-cpu = "*"
 pypdf = "*"
+openai = "*"
 
 [dev-packages]
 
