@@ -4,7 +4,6 @@ Purpose:
     generate vector embeddings using HuggingFace,
     and save them as a FAISS index to data/faiss_index/.
 """
-
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
