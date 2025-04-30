@@ -6,11 +6,11 @@ name = "pypi"
 [packages]
 python-dotenv = "*"
 huggingface_hub = "*"
-faiss-cpu = "*"  # Use faiss-gpu if you have GPU support
 langchain-community = "*"
 langchain = "*"
 gradio = "*"
 sentence-transformers = "*"
+faiss-cpu = "*"
 
 [dev-packages]
 
