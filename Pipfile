@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gradio = "*"
+langchain = "*"
+python-dotenv = "*"
+huggingface_hub = "*"
+sentence-transformers = "*"
+faiss-cpu = "*"  # Use faiss-gpu if you have GPU support
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
