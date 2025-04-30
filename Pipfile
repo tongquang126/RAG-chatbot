@@ -11,6 +11,7 @@ langchain = "*"
 gradio = "*"
 sentence-transformers = "*"
 faiss-cpu = "*"
+pypdf = "*"
 
 [dev-packages]
 
