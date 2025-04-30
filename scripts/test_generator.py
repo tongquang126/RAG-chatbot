@@ -4,6 +4,8 @@ Purpose:
 """
 
 import sys, os
+from dotenv import load_dotenv
+load_dotenv()  # This ensures .env variables are loaded
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from src.retriever import load_vector_store, retrieve_documents

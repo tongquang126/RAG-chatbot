@@ -9,6 +9,7 @@ import gradio as gr
 from retriever import load_vector_store, retrieve_documents
 from generator import generate_answer
 from dotenv import load_dotenv
+load_dotenv()  # This ensures .env variables are loade
 import os
 
 load_dotenv()  # Load biến môi trường từ .env
