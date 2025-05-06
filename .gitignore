@@ -25,4 +25,4 @@ data/.DS_Store
 
 # Ignore personal PDF and TXT data
 data/documents/*.txt
-data/documents/*.pdf
+data/documents/*.pdf.DS_Store
