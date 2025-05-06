@@ -7,6 +7,8 @@ data/faiss_index/
 .vscode/
 *.log
 *.tmp
+# In .gitignore
+.DS_Store
 # Secrets
 .env
 .gradio/
