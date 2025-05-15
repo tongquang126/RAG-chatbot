@@ -31,7 +31,7 @@ This approach improves reliability and reduces hallucinations in LLM outputs for
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/RAG-chatbot.git
+git clone https://github.com/tongquang126/RAG-chatbot.git
 cd RAG-chatbot
 2. Set up environment using Pipenv
 Make sure you have Pipenv installed:
